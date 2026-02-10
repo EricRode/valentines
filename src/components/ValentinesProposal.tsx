@@ -87,7 +87,7 @@ export default function ValentinesProposal() {
             key="step-0"
             className={`text-4xl font-semibold mb-4 ${playfairDisplay.className}`}
             transition={{ duration: 1 }}
-            initial={{ opacity: 0 }}
+            initial={{ opacity: 0.5 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
@@ -99,7 +99,7 @@ export default function ValentinesProposal() {
             key="step-1"
             className={`text-4xl font-semibold mb-4 ${playfairDisplay.className}`}
             transition={{ duration: 3 }}
-            initial={{ opacity: 0 }}
+            initial={{ opacity: 0.5 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
