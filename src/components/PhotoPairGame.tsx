@@ -70,11 +70,11 @@ export default function PhotoPairGame({
         setMatched((prev) => [...prev, firstIndex, index]);
         setSelected([]);
       } else {
-        await new Promise((resolve) => setTimeout(resolve, 300)); // Wait 1 second
+        await new Promise((resolve) => setTimeout(resolve, 500)); // Wait 1 second
 
         setIncorrect([firstIndex, index]);
-        setTimeout(() => setIncorrect([]),300); // Clear incorrect after 1 second
-        setTimeout(() => setSelected([]), 300);
+        setTimeout(() => setIncorrect([]),500); // Clear incorrect after 1 second
+        setTimeout(() => setSelected([]), 500);
       }
     } else {
       setSelected([index]);
